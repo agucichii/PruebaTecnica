@@ -1,0 +1,10 @@
+Bundle-Name: Portlet-Service-api
+Bundle-SymbolicName: com.ricoh.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.ricoh.exception,\
+	com.ricoh.model,\
+	com.ricoh.service,\
+	com.ricoh.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../Portlet-Service-service/service.xml

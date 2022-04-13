@@ -1,0 +1,11 @@
+dependencies {
+	compile project(":modules:Portlet-Service:Portlet-Service-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
+
+buildService {
+	apiDir = "../Portlet-Service-api/src/main/java"
+}
+
+group = "com.ricoh"

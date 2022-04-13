@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.ricoh.model.Registro">
+		<field name="uuid" type="String" />
+		<field name="registroId" type="long" />
+		<field name="nombre" type="String" />
+		<field name="apellido" type="String" />
+		<field name="nacimiento" type="Date" />
+		<field name="correo" type="String" />
+		<field name="fechacreacion" type="Date" />
+	</model>
+</model-hints>

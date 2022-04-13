@@ -1,0 +1,1 @@
+create index IX_22E6F10B on agu_Registro (uuid_[$COLUMN_LENGTH:75$]);
